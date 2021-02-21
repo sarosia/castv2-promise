@@ -1,0 +1,35 @@
+{
+  "name": "castv2-promise",
+  "version": "1.0.0",
+  "description": "A promisified castv2-client with builtin discovery support",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib test --fix",
+    "test": "mocha --reporter spec --bail --check-leaks test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarosia/castv2-promise.git"
+  },
+  "keywords": [
+    "chromecast",
+    "castv2"
+  ],
+  "author": "https://github.com/sarosia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarosia/castv2-promise/issues"
+  },
+  "homepage": "https://github.com/sarosia/castv2-promise#readme",
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "node-dns-sd": "^0.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.3.0",
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^8.3.0"
+  }
+}
