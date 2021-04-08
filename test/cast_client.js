@@ -9,7 +9,7 @@ describe('CastClient', () => {
 
   it('connect', async () => {
     connectStub.callsFake((options, callback) => {
-      callback(); 
+      callback();
     });
     const castClient = new CastClient();
     await castClient.connect();
@@ -25,7 +25,7 @@ describe('CastClient', () => {
       }
     });
     const castClient = new CastClient();
-    try { 
+    try {
       await castClient.connect();
     } catch (e) {
       expect(e.message).to.be.equal('Timeout');
