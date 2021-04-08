@@ -1,6 +1,6 @@
 {
   "name": "castv2-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A promisified castv2-client with builtin discovery support",
   "main": "index.js",
   "scripts": {
